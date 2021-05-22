@@ -3,6 +3,7 @@ from rest_framework.response import Response
 from .models import Productos
 from .serializers import ProductosSerializer
 from rest_framework.decorators import api_view
+
 # Create your views here.
 
 
@@ -49,3 +50,4 @@ def ProductosEliminar(request, pk):
     productos.delete()
 
     return Response('Eliminado')
+
