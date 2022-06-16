@@ -89,7 +89,7 @@ DATABASES = {
         'NAME': 'api_rest_django',
         'USER': 'root',
         'PASSWORD': 'password',
-        'HOST': 'localhost',
+        'HOST': 'mysql_db',
         'PORT': '3306',
         'OPTIONS': {
             'sql_mode': 'traditional',
