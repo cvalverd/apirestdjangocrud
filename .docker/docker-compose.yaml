@@ -1,4 +1,5 @@
 version: '3'
+name: apirestdjangocrud
 services:
   mysql_db:
     image: mysql:5.7
